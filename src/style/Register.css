@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+.register-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../assets/homebg2.jpg") no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.register-notification-success {
+    background-color: #1f1f1f;
+    width: fit-content;
+    height: 3rem;
+    color: #21f10c;
+    text-align: center;
+    border-bottom: 0.3rem solid #21f10c;
+    border-right: 0.3rem solid #21f10c;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    position: absolute;
+    top: 11rem;
+}
+
+.register-notification-error{
+    background-color: #1f1f1f;
+    width: fit-content;
+    height: 2rem;
+    color: rgb(255, 26, 26);
+    text-align: center;
+    border-bottom: 0.3rem solid rgb(255, 26, 26);
+    border-right: 0.3rem solid rgb(255, 26, 26);
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    position: absolute;
+    top: 11rem;
+}
+
+.register-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 35vw;
+    padding: 4rem 2rem 0 2rem;
+    background-color: #1f1f1f;
+    border-bottom: 0.3rem solid #f8eab1;
+    border-right: 0.3rem solid #f8eab1;
+
+    .register-card-logo{
+        text-decoration: none;
+        color: #f8eab1;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .register-card-logo:hover{
+        color: #f37905;
+    }
+}
+
+.register-card:active{
+    border-bottom: 0.4rem solid #f37905;
+    border-right: 0.4rem solid #f37905;
+}
+
+.register-input{
+
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    width: 32vw;
+}
+
+.register-input-2{
+    display: flex;
+    align-items: center;
+    width: 32vw;
+}
+
+.register-age{
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.register-number{
+
+    width: 60%;
+    text-align: center;
+}
+
+.register-page label{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #f8eab1;
+    margin-bottom: 0.3rem;
+
+    span{
+        font-size: 0.7rem;
+    }
+}
+.register-page input{
+    padding: 0.7rem 0.5rem;
+    background-color: transparent;
+    outline: 2px solid #f8eab1;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 1rem;
+    color: #f8eab1;
+}
+.register-page input:focus{
+    outline: 2px solid #f37905;
+    color: #f37905;
+}
+.register-page input::placeholder{
+    font-size: 1rem;
+    
+}
+
+.form-submit{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.7rem 0.5rem;
+    background-color: #1f1f1f;
+    outline: 2px solid #f37905;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    margin-bottom: 1rem;
+    color: #f37905;
+    cursor: pointer;
+}
+.form-submit:hover{
+    background-color: #f37905;
+    color: #1f1f1f;
+    outline: 2px solid #224200;
+}
+
+.form-existing-user{
+    color: #f8eab1;
+    text-align: center;
+    font-weight: 300;
+    a{
+        color: #f37905;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+}
+

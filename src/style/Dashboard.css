@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.dashboard-full{
+    display: flex;
+}
+
+.dashboard{
+    background-color: #1c1c1c;
+    overflow-y: scroll;
+    max-height: 100vh;
+    flex: 1;
+    scrollbar-width: none;
+    padding-bottom: 1rem;
+}
+
+.dashboard-hello{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #f37905;
+    padding: 2rem;
+}
+
+.dashboard-bento{
+    margin-top: 2rem;
+    padding: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.bento-1{
+    width: 25rem;
+    height: 30rem;
+    background-color: rgba(18, 18, 18, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 8px 0px #f37905;
+    outline: 1px solid #f37905;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.bento-2{
+    width: 25rem;
+    height: 30rem;
+    background-color: rgba(18, 18, 18, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 8px 0px #f37905;
+    outline: 1px solid #f37905;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.bento-3{
+    width: 25rem;
+    height: 30rem;
+    background-color: rgba(18, 18, 18, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 8px 0px #f37905;
+    outline: 1px solid #f37905;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.dashboard-pie{
+    color: #f37905;
+    margin-bottom: 1rem;
+}
+
+.bar-chart-div{
+    height: 25rem;
+}
+
+.no-workouts-message{
+    color: #f37905;
+    padding: 2rem;
+}
+
+
+
+
+
+

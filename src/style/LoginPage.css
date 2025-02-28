@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../assets/homebg2.jpg") no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.login-input{
+
+    display: flex;
+    flex-direction: column;
+    height: 21rem;
+    width: 32vw;
+}
+
+.login-page label{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #f8eab1;
+    margin-bottom: 0.3rem;
+
+    span{
+        font-size: 0.7rem;
+    }
+}
+.login-page input{
+    padding: 0.7rem 0.5rem;
+    background-color: transparent;
+    outline: 2px solid #f8eab1;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 1rem;
+    color: #f8eab1;
+}
+.login-page input:focus{
+    outline: 2px solid #f37905;
+    color: #f37905;
+}
+.login-page input::placeholder{
+    font-size: 1rem;
+    
+}
+
+.login-form-submit{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.7rem 0.5rem;
+    background-color: #1f1f1f;
+    outline: 2px solid #f37905;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
+    margin-bottom: 0rem;
+    color: #f37905;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button-google-icon{
+        padding-right: 1rem;
+        font-size: 1.5rem;
+    }
+}
+.login-form-submit:hover{
+    background-color: #f37905;
+    color: #1f1f1f;
+    outline: 2px solid #ef893e;
+}
